@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+// --> C Program to Print an Integer (Entered by the User)
+
+int main()
+{
+    int a; // --> variable declaration
+
+    printf("write an integer number which you have to print - Enter a number : ");
+    scanf("%d", &a);  // --> user input  
+
+    printf("your enter integer number is : %d\n", a);
+
+    return 0;
+}
