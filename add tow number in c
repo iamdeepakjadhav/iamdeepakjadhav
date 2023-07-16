@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+// --> C Program to Add Two Integers
+
+int main()
+{
+    int a =2, b =4; // --> variable declaration 
+    // a = 2;
+    // b = 4;
+    // c = a + b;
+
+    printf("add two interger number program!\n");
+    printf("2 + 4 = %d\n", a + b);
+    // printf("2 + 4 = %d\n", c);
+
+    return 0;
+}
