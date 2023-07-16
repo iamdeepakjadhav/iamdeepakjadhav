@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// --> C Program to Compute Quotient and Remainder
+
+int main()
+{
+    int dividend, divisor, quotient, remainder; // --> variable declaration 
+
+    printf("Enter dividend: ");
+    scanf("%d", &dividend); // --> user input dividend value
+
+    printf("Enter divisor: ");
+    scanf("%d", &divisor); // --> user input divisor value
+
+    // Computes quotient
+    quotient = dividend / divisor;
+
+    // Computes remainder
+    remainder = dividend % divisor;
+
+    printf("Quotient = %d\n", quotient); // ---> print Quotient
+    printf("Remainder = %d", remainder); // ---> print Remainder
+
+    return 0;
+}
