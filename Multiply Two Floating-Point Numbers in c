@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+// --> C Program to Multiply Two Floating-Point Numbers
+
+int main()
+{
+    float num1, num2;  // --> variable declaration  
+    num1 = 3.5;
+    num2 = 3.5;
+
+    printf("the value of two floating multuply number is!\n ");
+    printf("3.5 * 3.5 = %f\n", num1 * num2);
+
+    return 0;
+}
