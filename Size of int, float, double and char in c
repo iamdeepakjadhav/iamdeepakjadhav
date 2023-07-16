@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+// --> C Program to Find the Size of int, float, double and char
+
+int main()
+{
+    
+    // ---> variable declaration 
+    int intType;
+    float floatType;
+    double doubleType;
+    char charType;
+    long int long_int;
+    long double long_double;
+
+    // sizeof evaluates the size of a variable
+    printf("Size of int: %d bytes\n", sizeof(intType));
+    printf("Size of float: %d bytes\n", sizeof(floatType));
+    printf("Size of double: %d bytes\n", sizeof(doubleType));
+    printf("Size of char: %d byte\n", sizeof(charType));
+    printf("Size of long int: %d bytes\n", sizeof(long int));
+    printf("Size of long double: %d byte\n", sizeof(long double));
+
+    
+    return 0;
+}
+
+/*
+--> The size of the data type bytes is
+
+int	= 2,4
+char = 1
+float = 4
+double = 8	
+long double = 12 or 16
+short int = 2
+long int = 4,8
+long long int = 8
+unsigned long int = 4
+unsigned long long int = 8
+
+*/
